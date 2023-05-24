@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+
+}
+.imgContainer{
+    width: 300vw;
+    height: 100vh;
+    display: flex;
+    transition: all 1s ease;
+}
+.img{
+    width: 100vw;
+    height: 100vh;
+}
+.logos{
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
